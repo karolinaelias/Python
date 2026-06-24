@@ -5,11 +5,6 @@ alunos = {
     "João": 7.5
 }
 
-soma = 0
+media = sum(alunos.values()) / len(alunos)
 
-for nota in alunos.values():
-    soma += nota
-
-    media = soma / len(alunos)
-
-    print("Média da turma:", media )
+print("Média da turma:", media )
