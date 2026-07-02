@@ -4,8 +4,6 @@ tentativa_total = 4
 
 senha_digitada = input("Digite a senha: ")
 
-
-
 while tentativas < 4:
     tentativas += 1 
     tentativa_total -= 1
@@ -18,5 +16,3 @@ while tentativas < 4:
     else:
         print (f"Senha incorreta. Restam {tentativa_total} tentativa(s).")
         senha_digitada = input("Digite a senha: ")
-        
-  
